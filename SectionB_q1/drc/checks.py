@@ -1,3 +1,5 @@
+from helper.rectSpacing import rect_spacing
+
 #Defined checks for Width, Spacing and Enclosure.
 def check_width(shape, layer, rules):
     if shape.width < rules[layer]["minWidth"]:
