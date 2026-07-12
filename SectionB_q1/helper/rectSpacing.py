@@ -15,7 +15,7 @@ def rect_spacing(a, b):
     if overlap_y and not overlap_x:
         gap1= a.edgeX_left - b.edgeX_right
         gap2= b.edgeX_left - a.edgeX_right
-        reutrn(gap1, gap2, 0.0)
+        return max(gap1, gap2, 0.0)
 
     dx= max(b.edgeX_left - a.edgeX_right, a.edgeX_left - b.edgeX_right, 0.0)
     dy= max(b.edgeY_bottom - a.edgeY_top, a.edgeY_bottom - b.edgeY_top, 0.0)

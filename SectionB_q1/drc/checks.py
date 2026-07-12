@@ -6,8 +6,11 @@ def check_width(shape, layer, rules):
         return f"{layer} minimal width error."
     return "Pass"
 
-def check_spacing(shape, shape2, layer, rules):
-    if distance(shape1, shape2) < rules[layer]["minSpacing"]:
+def check_spacing(shape1, shape2, layer, rules):
+    result = rect_spacing(shape1, shape2)
+    if result == 0.0:
+        return f"{layer} layers overlap, no error."
+    elif result < rules[layer]["minSpacing"]:
         return f"{layer} spacing error."
     return "Pass"
 

@@ -13,5 +13,5 @@ rules = {
         "minWidth": 0.005,
         "minEnclosure": 0.002
     }
-
+    # Dictionary - rules with KEY - metal layer, with KEY <rule names> with value: min/max value
 }
