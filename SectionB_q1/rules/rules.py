@@ -11,7 +11,9 @@ rules = {
     },
     "via1": {
         "minWidth": 0.005,
-        "minEnclosure": 0.002
+        "minArea": 0.000025,
+        "minEnclosure": 0.002,
+        "minSpacing": 0.015
     }
     # Dictionary - rules with KEY - metal layer, with KEY <rule names> with value: min/max value
 }
