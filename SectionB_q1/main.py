@@ -2,6 +2,7 @@ from rules.rules import rules
 from layout.shapes import Rect
 from drc.checks import check_area, check_spacing, check_width
 from helper.printValues import printShapeValues
+from helper.printingLayout import printLayout
 
 rectangles = []
 
@@ -58,9 +59,9 @@ while(True):
                     continue
                 print(f"Spacing rect{i} and rect{j}:", check_spacing(rect1, rect2, rect1.layer, rules))
 
-    elif userChoice == '4'
+    elif userChoice == '4':
         printLayout(rectangles)
-        
+
     elif userChoice == '0':
         print("Exiting...")
         break
