@@ -1,4 +1,4 @@
-def rect_spacing(a, b):
+def findRectSpacing(a, b):
     overlap_x= not(a.edgeX_right <= b.edgeX_left or b.edgeX_right <= a.edgeX_left)
     overlap_y= not(a.edgeY_top <= b.edgeY_bottom or b.edgeY_top <= a.edgeY_bottom)
 

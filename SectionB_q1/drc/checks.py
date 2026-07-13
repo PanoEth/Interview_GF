@@ -1,4 +1,4 @@
-from helper.rectSpacing import rect_spacing
+from helper.rectSpacing import findRectSpacing
 
 #Defined checks for Width, Spacing and Enclosure.
 def check_width(shape, layer, rules):
