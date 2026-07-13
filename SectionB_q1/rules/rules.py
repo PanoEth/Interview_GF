@@ -9,7 +9,7 @@ rules = {
         "minSpacing": 0.02,
         "minArea": 0.15
     },
-    "Via1": {
+    "via1": {
         "minWidth": 0.005,
         "minEnclosure": 0.002
     }

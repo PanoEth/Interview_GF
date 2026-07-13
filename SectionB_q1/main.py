@@ -2,21 +2,38 @@ from rules.rules import rules
 from layout.shapes import Rect
 from drc.checks import check_area, check_spacing, check_width
 
-shape1 = Rect ("metal1", 0.05, 15, 0.0, 0.0) 
-print("Shape 1:")
-print(" Width check:", check_width(shape1, shape1.layer, rules))
-print(" Area check:", check_area(shape1, shape1.layer, rules))
+while(True):
+    userChoice = input("Enter your choice:\n1. Add rectangle.\n2. Run DRC check.\n3. Exit the program.\n")
 
-shape2 = Rect ("metal1", 0.009, 15, 0.04, 0.0) 
-print("Shape 2: ")
-print(" Width check:", check_width(shape2, shape2.layer, rules))
-print(" Area check:", check_area(shape2, shape2.layer, rules))
+    if userChoice == '1':
+        layer = input("Enter rectangle layer (m1, m2 or v1):  ")
+        if layer == 'm1' or layer == 'metal1':
+            rectLayer = 'metal1'
+        elif layer == 'm2' or layer == 'metal2':
+            rectLayer = 'metal2'
+        elif layer == 'v1' or layer == 'via1':
+            rectLayer = 'via1'
+        else:
+            print("Invalid layer. Please select valid layer.")
+            continue
+        w = float(input("Insert metal width (um): "))
+        l = float(input("Ïnsert metal length (um): "))
+        pointX = float(input("Insert base point coordinate (X): "))
+        pointY = float(input("Insert base point coordinate (Y): "))
+        count = int(0)
+        rectangles = []
+        rectangles.append(Rect(rectLayer, w, l, pointX, pointY))
+        print(f"Rectangle on layer {rectLayer}, created sucsessfully.")
+        count += 1
 
-if shape1.layer and shape2.layer:
-    layoutLayer = shape1.layer
-    print("Spacing shape1 and shape2:", check_spacing(shape1, shape2, layoutLayer, rules))
+    elif userChoice == '2':
+        print("Running check")
+    
+    elif userChoice == '3':
+        print("Exiting...\n")
+        break
+    else:
+        print("Invalid input. Select valid input.\n")
+        continue
 
-shape3 = Rect("metal2", 0.005, 0.01, 0.0, 0.0)
-print("Shape 2:")
-print(" Width check:", check_width(shape3, shape3.layer, rules))
-print(" Area check:", check_area(shape3, shape3.layer, rules))
+print("Process finished.")        
