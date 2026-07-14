@@ -1,0 +1,15 @@
+/workspaces/Interview_GF/part2/q1/encapsulatedExample/obj/Debug/net10.0/encapsulatedExample.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Interview_GF/part2/q1/encapsulatedExample/obj/Debug/net10.0/encapsulatedExample.AssemblyInfoInputs.cache
+/workspaces/Interview_GF/part2/q1/encapsulatedExample/obj/Debug/net10.0/encapsulatedExample.AssemblyInfo.cs
+/workspaces/Interview_GF/part2/q1/encapsulatedExample/obj/Debug/net10.0/encapsulatedExample.csproj.CoreCompileInputs.cache
+/workspaces/Interview_GF/part2/q1/encapsulatedExample/obj/Debug/net10.0/encapsulatedExample.sourcelink.json
+/workspaces/Interview_GF/part2/q1/encapsulatedExample/bin/Debug/net10.0/encapsulatedExample
+/workspaces/Interview_GF/part2/q1/encapsulatedExample/bin/Debug/net10.0/encapsulatedExample.deps.json
+/workspaces/Interview_GF/part2/q1/encapsulatedExample/bin/Debug/net10.0/encapsulatedExample.runtimeconfig.json
+/workspaces/Interview_GF/part2/q1/encapsulatedExample/bin/Debug/net10.0/encapsulatedExample.dll
+/workspaces/Interview_GF/part2/q1/encapsulatedExample/bin/Debug/net10.0/encapsulatedExample.pdb
+/workspaces/Interview_GF/part2/q1/encapsulatedExample/obj/Debug/net10.0/encapsulatedExample.dll
+/workspaces/Interview_GF/part2/q1/encapsulatedExample/obj/Debug/net10.0/refint/encapsulatedExample.dll
+/workspaces/Interview_GF/part2/q1/encapsulatedExample/obj/Debug/net10.0/encapsulatedExample.pdb
+/workspaces/Interview_GF/part2/q1/encapsulatedExample/obj/Debug/net10.0/encapsulatedExample.genruntimeconfig.cache
+/workspaces/Interview_GF/part2/q1/encapsulatedExample/obj/Debug/net10.0/ref/encapsulatedExample.dll

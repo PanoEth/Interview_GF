@@ -1,0 +1,15 @@
+/workspaces/Interview_GF/part2/q1/notEncapsulatedExample/bin/Debug/net10.0/notEncapsulatedExample
+/workspaces/Interview_GF/part2/q1/notEncapsulatedExample/bin/Debug/net10.0/notEncapsulatedExample.deps.json
+/workspaces/Interview_GF/part2/q1/notEncapsulatedExample/bin/Debug/net10.0/notEncapsulatedExample.runtimeconfig.json
+/workspaces/Interview_GF/part2/q1/notEncapsulatedExample/bin/Debug/net10.0/notEncapsulatedExample.dll
+/workspaces/Interview_GF/part2/q1/notEncapsulatedExample/bin/Debug/net10.0/notEncapsulatedExample.pdb
+/workspaces/Interview_GF/part2/q1/notEncapsulatedExample/obj/Debug/net10.0/notEncapsulatedExample.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Interview_GF/part2/q1/notEncapsulatedExample/obj/Debug/net10.0/notEncapsulatedExample.AssemblyInfoInputs.cache
+/workspaces/Interview_GF/part2/q1/notEncapsulatedExample/obj/Debug/net10.0/notEncapsulatedExample.AssemblyInfo.cs
+/workspaces/Interview_GF/part2/q1/notEncapsulatedExample/obj/Debug/net10.0/notEncapsulatedExample.csproj.CoreCompileInputs.cache
+/workspaces/Interview_GF/part2/q1/notEncapsulatedExample/obj/Debug/net10.0/notEncapsulatedExample.sourcelink.json
+/workspaces/Interview_GF/part2/q1/notEncapsulatedExample/obj/Debug/net10.0/notEncapsulatedExample.dll
+/workspaces/Interview_GF/part2/q1/notEncapsulatedExample/obj/Debug/net10.0/refint/notEncapsulatedExample.dll
+/workspaces/Interview_GF/part2/q1/notEncapsulatedExample/obj/Debug/net10.0/notEncapsulatedExample.pdb
+/workspaces/Interview_GF/part2/q1/notEncapsulatedExample/obj/Debug/net10.0/notEncapsulatedExample.genruntimeconfig.cache
+/workspaces/Interview_GF/part2/q1/notEncapsulatedExample/obj/Debug/net10.0/ref/notEncapsulatedExample.dll
